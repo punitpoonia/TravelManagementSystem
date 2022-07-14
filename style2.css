@@ -1,0 +1,87 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+body{
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+   
+    background-size: cover;
+    
+    background: url(3.jpg) no-repeat;
+
+}
+
+.haridwar p1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+;
+font-size: 50px;
+margin-left: 45%;
+position: absolute;
+top: 5%;
+font-style: bold;
+color:rgb(156, 16, 6);
+}
+.haridwar p2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+;
+font-size: 25px;
+margin-left: 2%;
+position: absolute;
+top: 20%;
+font-style: bold;
+color:rgb(36, 13, 3);
+}
+.map{
+    position: absolute;
+    margin-left: 66%;
+    top: 20%;
+}
+.haridwar p3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+;
+font-size: 25px;
+margin-left: 2%;
+position: absolute;
+top: 40%;
+font-style: bold;
+color:rgb(0, 31, 22);
+}
+.haridwar h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+;
+font-size: 40px;
+margin-left: 26%;
+position: absolute;
+top: 75%;
+font-style: bold;
+color:rgb(187, 8, 8);
+}
+#main{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    background: url('https://images.pexels.com/photos/4353638/pexels-photo-4353638.jpeg?cs=srgb&dl=pexels-spencer-davis-4353638.jpg&fm=jpg');
+    
+ 
+
+
+}
+.locations{
+    margin-left: 1% ;
+    margin-right: 1%;
+    
+    
+
+}
+.option{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: #4ca;
+    margin: 5%;
+    box-shadow: 10px 10px 10px teal;
+
+}
+.option:hover{
+    transform: scale(1.8);
+}

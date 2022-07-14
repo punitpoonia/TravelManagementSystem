@@ -1,0 +1,132 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background: url(1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.main p{
+    font-size: 22px;
+    padding-left: 27%;
+    padding-top: 2%;
+    color: rgb(14, 7, 73);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: aliceblue;
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
+span{
+    color: #f9004c;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding : 10px 25px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .5s;
+}
+.btn1{
+    background-color: #f9004d;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn1:hover{
+    transform: scale(1.4);
+}
+.Register-box{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.Register-box h1{
+    margin-bottom: 15px;
+    margin-left: 5%;
+    color: #f9004d;
+}
+.register{
+
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+    
+   
+}
+.register input
+{
+    border: none;
+    outline: none;
+    background: white;
+    color: rgb(3, 12, 43);
+    font-size: 18px;
+    width: 25%;
+    float: left;
+    margin: 0 10px;
+    cursor: text;
+   
+
+}
+.register label{
+    font-size: 15px bold;
+    color: #090909;
+    margin-left: 8%;
+    font-weight: bold;
+
+}
+.btn{
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin-top: 2%;   
+    margin-left: 3%;
+}
+.btn2{
+    background-color: #f9004d;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin-top: 2%;   
+    margin-left: 7%;
+    cursor: pointer;
+}
+.btn2:hover{
+    transform: scale(1.4);
+}
